@@ -11,8 +11,8 @@ lens(stuff)   # 하나의 문자로 취급되어 len 3이 됨
 3
 ```
 
-handle = open(filename, mode)
-handle 은 파일 자체도 아니고 파일 안의 데이터도 아니다. 접근해주는 창구
+handle = open(filename, mode)   
+###handle 은 파일 자체도 아니고 파일 안의 데이터도 아니다. 접근해주는 창구
 
 ```python
 handle = open(filename, mode)
