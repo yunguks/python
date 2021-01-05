@@ -3,7 +3,7 @@
 
 ## 배열    
 
-<pre><code>{
+```python
 word1 = " Welcome, "
 
 print(word1[1:3]) 
@@ -28,8 +28,5 @@ print(word.lstrip()) #왼쪽 공백 제거
 print(word.rstrip()) #오른쪽 공백 제거
 print(word.strip()) # 오른쪾 왼쪽 제거
 print(word.startswith(' Welcome')) #시작 문자열 확인
-#print((word.lstrip).startswith('Welcome'))
-
-}
-</code>
-</pre>
+#print((word.lstrip).startswith('Welcome')) 오류가 나는 것을 확인
+```
