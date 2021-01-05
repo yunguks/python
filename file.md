@@ -25,15 +25,18 @@ except:
   print('File cannot be opende: ', fname)
   quit()  # 종료하는 함수 필수
 
+
 # 파일을 열어 한줄 씩 출력
 fhand = open('mbox.txt')
 for cheese in fhand:
   cheese = cheese.retrip()  # 파일line 끝에 \n 개행 포함되어있어 제거
   print(cheese)             # print 끝에도 \n 개행 포함 중복
 
+
 # 파일 모든정보를 한 문자열에 받기
 fhand = open('mbox.txt')
 one = fhand.read()   read() 읽기 메소드 호출
+
 
 # 문자열 찾기
 for line in fhand:
